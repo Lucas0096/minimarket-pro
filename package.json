@@ -2,7 +2,6 @@
       "scripts": {
       "start": "react-scripts start",
       "build": "react-scripts build",
-      "postbuild": "ren build\\_redirects.txt _redirects",
       "test": "react-scripts test",
       "eject": "react-scripts eject"
       },
