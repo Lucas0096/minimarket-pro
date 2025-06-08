@@ -2,7 +2,7 @@
       "scripts": {
             "start": "react-scripts start",
             "build": "react-scripts build",
-            "postbuild": "mv build/_redirects.txt build/_redirects",
+            "postbuild": "mv build//_redirects.txt build/_redirects",
             "test": "react-scripts test",
             "eject": "react-scripts eject"
       },
