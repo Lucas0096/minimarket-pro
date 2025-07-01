@@ -156,6 +156,8 @@ const App = () => {
         return <WebSalesDashboard selectedMarket={selectedMarket} />;
       case 'backupRestore': 
         return <BackupRestoreDashboard />;
+      case 'cashManagement':
+        return <CashManagement />;
       case 'userManagement': 
         return <UserManagementDashboard />;
       default: 
