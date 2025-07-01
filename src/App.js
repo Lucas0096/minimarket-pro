@@ -16,6 +16,7 @@ import MarketSelectionModal from './components/MarketSelectionModal';
 import UserManagementDashboard from './components/UserManagementDashboard';
 import { getCurrentUser, logoutUser, isAdmin } from './utils/auth';
 import { checkAndNotify } from './utils/bot';
+import CashManagement from './components/CashManagement';
 import { initializeDBFromLocalStorage, syncWithBackend } from './utils/indexedDb';
 
 // Función para detectar el tipo de dispositivo
